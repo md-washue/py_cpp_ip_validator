@@ -6,7 +6,7 @@ def validate_ip():
     ip_input= entry_ip.get().strip()
 
     if not ip_input:
-        label_result.config(text="Please enter an IP address.",fg="#ff9800")
+        label_result.config(text="Please enter an IP address.",fg="#0059ff")
         return
 
     exe_name = "validator.exe" if sys.platform == "win32" else "./validator"
