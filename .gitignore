@@ -1,0 +1,6 @@
+# Ignore compiled C++ binaries
+validator
+validator.exe
+
+# Ignore local history logs
+history/*.csv
