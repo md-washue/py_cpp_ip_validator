@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-
+   
 #ifdef _WIN32
 	#include <winsock2.h>
 	#include <ws2tcpip.h>
@@ -28,7 +28,8 @@ int main(int argc, char* argv[]){
 		std::cout<<"Valid IPv6" <<std::endl;
 		return 0;
 
-	}
+	} 
+	
 	std::cout<<"Invalid Address" << std::endl;
 	return 1;
 }
